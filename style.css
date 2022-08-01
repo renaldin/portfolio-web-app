@@ -1,0 +1,480 @@
+
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fde4e4;
+}
+
+#projects {
+  background-color: #fde4e4;
+}
+
+section {
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+
+
+/* Desktop version */
+@media (min-width: 992px) { 
+  .nav-link:hover::after {
+          content: '';
+          display: block;
+          border-bottom: 3px solid #ffffff;
+          width: 50%;
+          margin: auto;
+          padding-bottom: 5px;
+          margin-bottom: -8px;
+      }
+}
+
+/* Project box profilrey */
+.project-box-profil {
+  position: relative;
+  background-color: rgba(211, 0, 0, 0.904);
+  border-radius: 15px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.project-box-profil::before {
+  content: 'HTML';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-profil:hover::before {
+  opacity: 0.3;
+}
+
+.project-box-profil::after {
+  text-align: center;
+  content: 'CSS & JS';
+  position: absolute;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-profil:hover::after {
+  opacity: 0.3;
+}
+
+.project-profil-name{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.project-box-profil:hover .project-profil-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.project-profil-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-profil:hover .project-profil-detail-button {
+  opacity: 1;
+  bottom: 11px;
+}
+
+.project-profil-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  max-width: 85%;
+  transition: 0.5s;
+}
+
+.project-box-profil:hover .project-profil-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.1);
+}
+
+/* Project box -bukupedia */
+.project-box-bukupedia {
+  position: relative;
+  background-color: rgba(211, 0, 0, 0.904);
+  border-radius: 15px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.project-box-bukupedia::before {
+  content: 'PHP';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-bukupedia:hover::before {
+  opacity: 0.3;
+}
+
+.project-box-bukupedia::after {
+  text-align: center;
+  content: 'CEDEIGNITER 3';
+  position: absolute;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-bukupedia:hover::after {
+  opacity: 0.3;
+}
+
+.project-bukupedia-name{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.project-box-bukupedia:hover .project-bukupedia-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.project-bukupedia-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-bukupedia:hover .project-bukupedia-detail-button {
+  opacity: 1;
+  bottom: 11px;
+}
+
+.project-bukupedia-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  max-width: 85%;
+  transition: 0.5s;
+}
+
+.project-box-bukupedia:hover .project-bukupedia-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.1);
+}
+
+/* Project box difest */
+.project-box-difest {
+  position: relative;
+  background-color: rgba(211, 0, 0, 0.904);
+  border-radius: 15px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.project-box-difest::before {
+  content: 'PHP';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-difest:hover::before {
+  opacity: 0.3;
+}
+
+.project-box-difest::after {
+  text-align: center;
+  content: 'CODEIGINITER 4';
+  position: absolute;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-difest:hover::after {
+  opacity: 0.3;
+}
+
+.project-difest-name{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.project-box-difest:hover .project-difest-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.project-difest-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-difest:hover .project-difest-detail-button {
+  opacity: 1;
+  bottom: 11px;
+}
+
+.project-difest-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  max-width: 85%;
+  transition: 0.5s;
+}
+
+.project-box-difest:hover .project-difest-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.1);
+}
+
+/* Project box taekwondo */
+.project-box-taekwondo {
+  position: relative;
+  background-color: rgba(211, 0, 0, 0.904);
+  border-radius: 15px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.project-box-taekwondo::before {
+  content: 'PHP';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-taekwondo:hover::before {
+  opacity: 0.3;
+}
+
+.project-box-taekwondo::after {
+  text-align: center;
+  content: 'NATIVE';
+  position: absolute;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-taekwondo:hover::after {
+  opacity: 0.3;
+}
+
+.project-taekwondo-name{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.project-box-taekwondo:hover .project-taekwondo-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.project-taekwondo-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-taekwondo:hover .project-taekwondo-detail-button {
+  opacity: 1;
+  bottom: 11px;
+}
+
+.project-taekwondo-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  max-width: 85%;
+  transition: 0.5s;
+}
+
+.project-box-taekwondo:hover .project-taekwondo-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.1);
+}
+
+/* Project box sistem-pakar */
+.project-box-sistem-pakar {
+  position: relative;
+  background-color: rgba(211, 0, 0, 0.904);
+  border-radius: 15px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.project-box-sistem-pakar::before {
+  content: 'PHP';
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-sistem-pakar:hover::before {
+  opacity: 0.3;
+}
+
+.project-box-sistem-pakar::after {
+  text-align: center;
+  content: 'CODEIGNITER 3';
+  position: absolute;
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-sistem-pakar:hover::after {
+  opacity: 0.3;
+}
+
+.project-sistem-pakar-name{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.project-box-sistem-pakar:hover .project-sistem-pakar-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.project-sistem-pakar-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 50px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project-box-sistem-pakar:hover .project-sistem-pakar-detail-button {
+  opacity: 1;
+  bottom: 11px;
+}
+
+.project-sistem-pakar-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 100px);
+  max-width: 85%;
+  transition: 0.5s;
+}
+
+.project-box-sistem-pakar:hover .project-sistem-pakar-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(5deg) scale(1.1);
+}
